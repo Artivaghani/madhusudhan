@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_MyAccount"
+            android:icon="@drawable/user"
+            android:title="My Account"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_Mywishlist"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="My WishList"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_Shopbycat"
+            android:icon="@drawable/tap"
+            android:title="Shop By Category" />
+
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@drawable/ic_bottom_nav_offers_unselected"
+            android:title="Offer For You"
+            android:visible="false"/>
+    </group>
+    <group
+        android:id="@+id/menu_bottoms"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_PrivacyPolicy"
+            android:icon="@drawable/privacypolicy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_TermsConditions"
+            android:icon="@drawable/terms_conditions"
+            android:title="Terms Conditions" />
+        <item
+            android:id="@+id/nav_ShippingPolicy"
+            android:icon="@drawable/shipping_policy"
+            android:title="Shipping Policy"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_ReturnsPolicy"
+            android:icon="@drawable/returnspolicy"
+            android:title="Returns Policy"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_bank"
+            android:icon="@drawable/bank"
+            android:title="Bank Details"
+            android:visible="false"/>
+
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_FAQs"
+            android:icon="@drawable/info"
+            android:title="FAQs" />
+        <item
+            android:id="@+id/nav_About"
+            android:icon="@drawable/location_myaccount"
+            android:iconTint="@color/grey_4a"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/online"
+            android:iconTint="@color/grey_4a"
+            android:title="Call Us" />
+        <!--<item-->
+        <!--android:visible=""-->
+        <!--android:id="@+id/nav_LogOut"-->
+        <!--android:icon="@drawable/my_logout"-->
+        <!--android:title="Log Out" />-->
+    </group>
+</menu>

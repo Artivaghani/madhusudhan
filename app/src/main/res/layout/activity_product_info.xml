@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/btchkelocastion"
+    tools:context="com.SkyzoneGroup.MadhusudhanCreation.Activity.ProductInfoActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/llmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/selector_default_highlight_rect"
+        android:visibility="visible">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="true"
+            android:layout_above="@+id/linearout"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="vertical">
+
+                    <android.support.percent.PercentFrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/ivImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dp"
+                            android:layout_marginTop="@dimen/dimen_10"
+                            android:padding="@dimen/dimen_5"
+                            android:src="@drawable/icon"/>
+
+                    </android.support.percent.PercentFrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/my_recycler_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scrollbars="none" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:tag="binding_5">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:id="@+id/name"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/discount"
+                                android:layout_weight="1"
+                                android:ellipsize="end"
+                                android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                                android:minWidth="30dp"
+                                android:text="Latest Indian Dresses Collections 2017"
+                                android:textColor="@color/black"
+                                android:textSize="18sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.60"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                                        android:text="SKU Code :"
+                                        android:textColor="#000"
+                                        android:textSize="14dp" />
+
+                                    <TextView
+                                        android:id="@+id/tvskuid"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="0.40"
+                                        android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                                        android:text="@string/Send_Otp"
+                                        android:textColor="@color/black"
+                                        android:textSize="15dp"
+                                        android:visibility="visible" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/tvspecial_price"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                                        android:tag="binding_9"
+                                        android:text="@string/Send_Otp"
+                                        android:textColor="#34af23"
+                                        android:textSize="15dp" />
+
+                                    <TextView
+                                        android:id="@+id/tvprice"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="6dp"
+                                        android:layout_marginRight="6dp"
+                                        android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                                        android:text="@string/Send_Otp"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="10dp" />
+
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.30"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/tvdiscount"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/bg_discount_percent_off"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/dimen_5"
+                                    android:text="(20%OFF)"
+                                    android:textAllCaps="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                        <!--<RelativeLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:visibility="gone">-->
+
+                        <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignParentLeft="true"-->
+                        <!--android:text="Quantity"-->
+                        <!--android:textColor="@color/meesho_gray_dark"-->
+                        <!--android:textSize="15dp" />-->
+
+                        <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:gravity="center"-->
+                        <!--android:orientation="horizontal">-->
+
+                        <!--<ImageButton-->
+                        <!--android:id="@+id/ibSub"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:padding="4dp"-->
+                        <!--android:src="@drawable/ic_minus_24dp" />-->
+
+                        <!--<TextView-->
+                        <!--android:id="@+id/tvQuantity"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:gravity="center"-->
+                        <!--android:minEms="2"-->
+                        <!--android:text="2"-->
+                        <!--android:textColor="@color/meesho_gray_dark" />-->
+
+                        <!--<ImageButton-->
+                        <!--android:id="@+id/ibAdd"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:padding="4dp"-->
+                        <!--android:src="@drawable/ic_plus_24dp" />-->
+                        <!--</LinearLayout>-->
+
+                        <!--</RelativeLayout>-->
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="0.3dp"
+                            android:layout_marginLeft="@dimen/dimen_10"
+                            android:layout_marginRight="@dimen/dimen_10"
+                            android:layout_marginTop="@dimen/dimen_10"
+                            android:background="@color/meesho_gray_dark" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp"
+                                android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                                android:maxLines="2"
+                                android:tag="binding_11"
+                                android:text="Description"
+                                android:textColor="@color/grey_4d"
+                                android:textSize="18dp"
+                                android:visibility="visible" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:weightSum="1">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="0.90"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/tvProDes"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="20dp"
+                                        android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                                        android:gravity="left"
+                                        android:text="_"
+                                        android:textSize="13dp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.10"
+                                    android:gravity="center">
+
+                                    <com.balysv.materialripple.MaterialRippleLayout
+                                        android:id="@+id/iv_copy"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_centerInParent="true">
+
+                                        <ImageView
+                                            android:layout_width="50dp"
+                                            android:layout_height="50dp"
+                                            android:layout_gravity="center"
+                                            android:padding="8sp"
+                                            android:src="@drawable/copy" />
+                                    </com.balysv.materialripple.MaterialRippleLayout>
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="0.3dp"
+                            android:layout_marginLeft="@dimen/dimen_10"
+                            android:layout_marginRight="@dimen/dimen_10"
+                            android:layout_marginTop="@dimen/dimen_10"
+                            android:background="@color/meesho_gray_dark" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="3dp"
+                            android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                            android:text="Check COD Servicebility"
+                            android:textColor="@color/grey_4d"
+                            android:textSize="18dp"
+                            android:visibility="gone" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginRight="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.45"
+                                android:orientation="vertical">
+
+                                <!--<android.support.design.widget.TextInputLayout-->
+                                <!--android:id="@+id/inputLayoutPhoneNo"-->
+                                <!--android:layout_width="match_parent"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_marginBottom="8dp"-->
+                                <!--app:errorTextAppearance="@style/error_appearance">-->
+
+                                <EditText
+                                    android:id="@+id/etPincode"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:hint="Enter Pincode"
+                                    android:imeOptions="actionNext"
+                                    android:inputType="number"
+                                    android:maxLength="6"
+                                    android:textColor="@color/grey_4d"
+                                    android:textSize="15dp" />
+
+
+                                <!--</android.support.design.widget.TextInputLayout>-->
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.05" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.45"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/submitcheckondelivery"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/btchkelocastion"
+                                    android:gravity="center"
+                                    android:text="Submit"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textSize="15dp" />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_locastion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dimen_5"
+                            android:layout_marginLeft="@dimen/dimen_10"
+                            android:gravity="left"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/img"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="@dimen/dimen_5" />
+
+                            <TextView
+                                android:id="@+id/txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="center"
+                                android:text="@string/errorlocation"
+                                android:textSize="12dp"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="0.3dp"
+                            android:layout_marginLeft="@dimen/dimen_10"
+                            android:layout_marginRight="@dimen/dimen_10"
+                            android:background="@color/meesho_gray_dark" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="3dp"
+                            android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                            android:maxLines="2"
+                            android:text="Supplied By"
+                            android:textColor="@color/meesho_gray_dark"
+                            android:textSize="18dp"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:layout_marginBottom="20dp"
+                            android:orientation="horizontal"
+                            android:padding="5dp"
+                            android:visibility="gone">
+
+                            <RadioButton
+                                android:id="@+id/rbutton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:checked="true"
+                                android:gravity="top" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:orientation="vertical">
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/tvshipping"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:gravity="end"
+                                        android:layout_marginRight="10dp"
+                                        android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                                        android:lines="1"
+                                        android:text="@string/shipping"
+                                        android:textColor="@color/meesho"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:id="@+id/txtSupplierInfo"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                                        android:text="_"
+                                        android:textColor="@color/meesho_gray_dark"
+                                        android:textSize="15dp" />
+                                </FrameLayout>
+
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                                        android:lines="1"
+                                        android:text="Easy returns."
+                                        android:textColor="@color/meesho_gray_dark"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:id="@+id/tvshow"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:fontFamily="fonts/DINNexLTLTPro-Medium"
+                                        android:lines="1"
+                                        android:text="@string/register"
+                                        android:textColor="@color/meesho"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+        <LinearLayout
+            android:id="@+id/linearout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btVproduct"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.40"
+                android:background="@color/meesho"
+                android:tag="binding_12"
+                android:text="Inquiry"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10" />
+
+            <LinearLayout
+                android:id="@+id/btVshare"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.40"
+                android:background="#34af23"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="@dimen/dimen_5"
+                    android:padding="@dimen/dimen_3"
+                    android:src="@drawable/whatsappp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dimen_5"
+                    android:gravity="left"
+                    android:text="SHARE"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btVproceed"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.40"
+                android:background="@color/meesho_green"
+                android:drawableLeft="@drawable/ic_next"
+                android:text="Checkout"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/popupshare"
+        android:clickable="true"
+        android:background="#4d000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/popup_share"/>
+
+    </RelativeLayout>
+    <!--<com.lid.lib.LabelTextView--><!--style="@style/LabelView"--><!--android:label_distance="55dp"--><!--android:label_orientation="1"--><!--android:label_text="@string/prebooking"--><!--android:tag="binding_14" />-->
+</RelativeLayout>

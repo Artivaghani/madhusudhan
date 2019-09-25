@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/meesho_button_border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <!--<me.omidh.liquidradiobutton.LiquidRadioButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--app:lrb_checkedColor="@android:color/holo_green_dark"-->
+            <!--app:lrb_explodeCount="3"-->
+            <!--app:lrb_inAnimDuration="400"-->
+            <!--app:lrb_innerCircleRadius="10dp"-->
+            <!--app:lrb_outAnimDuration="400"-->
+            <!--app:lrb_outterPadding="6dp"-->
+            <!--app:lrb_strokeRadius="15dp"-->
+            <!--app:lrb_strokeWidth="1dp"-->
+            <!--app:lrb_unCheckedColor="@android:color/holo_red_light" />-->
+
+            <RadioButton
+                android:id="@+id/rbutton"
+                android:layout_width="wrap_content"
+                android:checked="true"
+                android:layout_height="wrap_content" />
+
+            <!--<CheckBox-->
+                <!--android:id="@+id/radio_button"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:textColor="@android:color/black" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="42dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/First_Name"
+                    android:textColor="@color/meesho_gray_dark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/address_display_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:lines="2"
+                    android:text="@string/Address2"
+                    android:textColor="@color/meesho_gray_dark"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:lines="1"
+                    android:text="phone number"
+                    android:textColor="@color/meesho_gray_dark"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/gray_disabled" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="48dp"
+        android:background="@drawable/bg_rounded_rect"
+        android:paddingBottom="3dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="3dp"
+        android:tag="binding_7"
+        android:text="unserviceable"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btVproduct"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@android:color/transparent"
+            android:tag="binding_8"
+            android:text="edit"
+            android:textColor="@color/meesho"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/ibDelete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_delete_black_24dp"
+            android:tag="binding_8"
+            android:text="Delete"
+            android:textColor="@color/meesho"
+            android:tint="@color/meesho_gray_dark" />
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_10">10.0dp</dimen>
+    <dimen name="primary_text_size">16.0dp</dimen>
+    <dimen name="margin_small">8.0dp</dimen>
+    <dimen name="dimen_3">3.0dp</dimen>
+    <dimen name="dimen_1">1.0dp</dimen>
+    <dimen name="dimen_2_n_half">2.5dp</dimen>
+    <dimen name="small_text_size">12.0dp</dimen>
+    <dimen name="dimen_20">20.0dp</dimen>
+    <dimen name="margin_15">15.0dp</dimen>
+    <dimen name="dimen_4">4.0dp</dimen>
+    <dimen name="padding_10">10.0dp</dimen>
+    <dimen name="secondary_text_size">14.0dp</dimen>
+    <dimen name="padding_normal">16.0dp</dimen>
+    <dimen name="padding_mini">4.0dp</dimen>
+    <dimen name="padding_small">8.0dp</dimen>
+    <dimen name="dimen_8">8.0dp</dimen>
+    <dimen name="dimen_30">30.0dp</dimen>
+    <dimen name="dimen_10">10.0dp</dimen>
+    <dimen name="dimen_50">50.0dp</dimen>
+    <dimen name="dimen_5">5.0dp</dimen>
+    <dimen name="text_size_small">12dp</dimen>
+    <dimen name="text_size_medium">16dp</dimen>
+    <dimen name="text_size_large">18dp</dimen>
+    <dimen name="cart_change_pincode_textSize">13dp</dimen>
+    <dimen name="badge_text_size">10dp</dimen>
+</resources>

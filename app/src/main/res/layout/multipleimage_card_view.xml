@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5"
+    card_view:cardMaxElevation="10dp">
+
+    <ImageView
+        android:id="@+id/ivProductIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/dimen_10"
+        android:src="@drawable/icon" />
+
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#784d4a4a">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:gravity="center"-->
+            <!--android:text="HD"-->
+            <!--android:textColor="#FFFF"-->
+            <!--android:textSize="25dp"-->
+            <!--android:textStyle="bold" />-->
+    <!--</FrameLayout>-->
+</android.support.v7.widget.CardView>

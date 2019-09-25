@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="500dp"
+    android:background="#000000ff"
+    android:layout_gravity="center">
+
+    <com.SkyzoneGroup.MadhusudhanCreation.Model.TouchImageView
+        android:id="@+id/ivImage2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY">
+
+    </com.SkyzoneGroup.MadhusudhanCreation.Model.TouchImageView>
+
+
+</LinearLayout>

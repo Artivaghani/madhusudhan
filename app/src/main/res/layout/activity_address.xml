@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.SkyzoneGroup.MadhusudhanCreation.Activity.AddressActivity">
+
+    <FrameLayout
+        android:id="@+id/recycler_view_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_List_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="70dp"
+            android:tag="binding_2"
+            android:visibility="visible" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btVproduct"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.40"
+                android:background="@color/colorPrimary"
+                android:tag="binding_12"
+                android:text="Add New"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10" />
+
+            <Button
+                android:id="@+id/iVProceed"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.40"
+                android:background="@color/meesho_green"
+                android:drawableLeft="@drawable/ic_next"
+                android:text="Proceed"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_notfound"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_notfound"
+            android:tint="@color/colorPrimary"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_nointernet"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#ff0000"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="PLEASE MAKE SURE YOU ARE CONNECTED TO INTERNET AND TRY AGAIN...."
+            android:layout_height="wrap_content" />
+
+        <!--<ImageView-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@drawable/no_internet" />-->
+
+    </FrameLayout>
+</RelativeLayout>

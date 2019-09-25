@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Madhusudhan Creation</string>
+    <string name="sign_up_with_mobile_number">Sign up with Mobile Number</string>
+    <string name="Registration">User Registration</string>
+    <string name="login_title">Enter your mobile number</string>
+    <string name="Singup_title">User Registration</string>
+    <string name="Singin_title">User LogIn</string>
+    <string name="Rest_title">Rest Password</string>
+    <string name="LogIn">LogIn</string>
+    <string name="Singup">Sign up</string>
+    <string name="Mobile_Number">Mobile Number</string>
+    <string name="User">User Name</string>
+    <string name="Email">Email Id</string>
+    <string name="Password">Password</string>
+    <string name="Address1">Address 1</string>
+    <string name="User_Password">User Password</string>
+    <string name="Show_Password">Show Password</string>
+    <string name="code_sent_to">Verify your mobile number</string>
+    <string name="Address2">Address 2</string>
+    <string name="Send_Otp">Send OTP</string>
+    <string name="Resend_Otp">Resend OTP</string>
+    <string name="First_Name">First Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="server_client_id">AIzaSyC_qohk0mNrJTLkzeLS4Nh5pbx0cP--5oM</string>
+    <string name="phone_login_text">Tap %1$s to verify your account with Account Kit powered by Facebook. You don’t need a Facebook account to use Account Kit. An SMS may be sent to verify your number. Message and data rates may apply. &lt;a href=%2$s&gt;Learn how Facebook uses your info&lt;/a&gt;.</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="address">Address</string>
+    <string name="changeAllSmall">change</string>
+    <string name="my_orders">My Orders</string>
+    <string name="bbCommHub">Notifications</string>
+    <string name="text_forgot_password">Forgot Password?</string>
+    <string name="empty_basket_txt1">There are no items in your basket.</string>
+    <string name="startShopping">Start shopping</string>
+    <string name="password">Password</string>
+    <string name="action_sign_up_short">Sign up</string>
+    <string name="password_hint_without_character_limit">Password</string>
+    <string name="show_password">Show</string>
+    <string name="empty_basket_txt2">Enjoy great shopping experience with us!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confrompassword">Confrom Password</string>
+    <string name="text_login_using_otp">Login Using OTP</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="facebook_app_id">170116560259300</string>
+    <string name="fb_login_protocol_scheme">170116560259300</string>
+    <string name="font_name">DINNextLTPro-Regular</string>
+    <string name="shipping_charges">Shipping Charges</string>
+    <string name="errorlocation">This location is not serviceable.</string>
+    <string name="location">This location is serviceable.</string>
+    <string name="register"><u>See details</u></string>
+    <string name="shipping"><u>Check Shipping</u></string>
+    <string name="bank_name">Bank Name</string>
+    <string name="hdfc_bank">IDBI bank</string>
+    <string name="account_name">Account Name</string>
+    <string name="hdfc_account_number">1336102000013448</string>
+    <string name="ifsc_code_label">IFSC Code</string>
+    <string name="bank_ifsc_code">IBKL0001336</string>
+    <string name="company_name_2_lines">shree corporation</string>
+    <string name="total_weight">Total Weight</string>
+    <string name="quantity">Quantity</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="selectAction">
+        <item>Resend OTP</item>
+        <item>Enter OTP Manually</item>
+    </string-array>
+    <string name="Share">Start your reselling business from home with zero investment \n Join me and more people who are earning money from home using 1stchoice App.</string>
+    <string name="home">Home</string>
+    <string name="collections">Collections</string>
+    <string name="search">search</string>
+    <string name="help">Help</string>
+</resources>

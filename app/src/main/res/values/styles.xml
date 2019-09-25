@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:fontFamily" tools:targetApi="jelly_bean">@fonts/DINNextLTPro-Bold</item>-->
+        <!--<item name="fontFamily">@fonts/DINNextLTPro-Bold</item>-->
+    </style>
+    <style name="welcomeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:fontFamily" tools:targetApi="jelly_bean">@fonts/DINNextLTPro-Bold</item>-->
+        <!--<item name="fontFamily">@fonts/DINNextLTPro-Bold</item>-->
+    </style>
+    <style name="TwoColumns">
+        <item name="android:layout_weight">10</item>
+        <item name="android:layout_height">8dp</item>
+
+    </style>
+    <style name="diagonalStyle">
+        <item name="android:background">@drawable/diagonal_line</item>
+    </style>
+    <style name="GreedyColumn">
+        <item name="android:layout_weight">10</item>
+        <item name="android:layout_height">8dp</item>
+    </style>
+    <style name="NonGreedyColumn">
+        <item name="android:layout_weight">10</item>
+        <item name="android:layout_height">8dp</item>
+
+    </style>
+    <style name="tab_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

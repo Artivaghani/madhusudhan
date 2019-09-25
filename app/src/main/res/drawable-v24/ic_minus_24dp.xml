@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:width="24dp" android:viewportWidth="24.0" android:viewportHeight="24.0">
+    <group android:translateX="1.5" android:translateY="1.5">
+        <path android:fillColor="@color/meesho_gray" android:pathData="M0,0L21,0,21,20,0,20Z" />
+        <path android:fillColor="@color/meesho_gray_shade_2" android:pathData="M0,20l21,0,0,1,-21,0z" />
+        <path android:fillColor="@color/meesho_gray_dark" android:pathData="M11.947056,11.358272l3.851085,0c0.151023,0,0.251705 -0.09626 0.251705 -0.24064l0 -1.876992C16.049846 9.096256 15.949164 9 15.798141 9L11.947056 9 9.1027901 9 5.2517049 9C5.100682 9 5 9.096256 5 9.24064l0 1.876992c0 0.144384 0.100682 0.24064 0.2517049 0.24064l3.8510852 0 2.8442659 0z" />
+    </group>
+</vector>

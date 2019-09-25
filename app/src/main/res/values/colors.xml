@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#84076b</color>
+    <color name="colorPrimaryDark">#530040</color>
+    <color name="colorAccent">#b74599</color>
+    <color name="meesho_dark">#530040</color>
+    <color name="meesho">#84076b</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="meesho_light">#ff599e</color>
+    <color name="colorBackground">#F8F8F8</color>
+    <color name="colorNavAccentSelected">#9D0E15</color>
+    <color name="colorNavAccentUnselected">#727272</color>
+
+    <color name="listview_divider">#00000000</color>
+
+    <color name="listview_group_text_color_before">#555555</color>
+    <color name="listview_group_image_color_before">#555555</color>
+    <color name="listview_group_arrow_image_color_before">#555555</color>
+    <color name="listview_group_parent_color_before">#ffffff</color>
+
+    <color name="windowBackground">#FFFFFF</color>
+
+    <color name="listview_group_text_color_after">#555555</color>
+    <color name="listview_group_image_color_after">#dca12b</color>
+    <color name="listview_group_arrow_image_color_after">#dca12b</color>
+    <color name="listview_group_parent_color_after">#ebebeb</color>
+    <color name="color_layout">#f0f1f5</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextDisable">#66FFFFFF</color>
+    <color name="grey_4d">#ff4d4d4d</color>
+    <color name="my_account_header_start_color">#E09275</color>
+    <color name="my_account_header_end_color">#DF5353</color>
+    <color name="my_account_header_centre_color">#DA5D5D</color>
+    <color name="secondary_button_stroke_pressed">#66aaaaaa</color>
+    <color name="my_account_change_address_text_color">#CF484B</color>
+    <color name="grey_4a">#ff4a4a4a</color>
+    <color name="grey_8f">#ff8f8f8f</color>
+    <color name="primaryactionbuttoncolor">#ffe95f62</color>
+    <color name="meesho_green">#046307</color>
+    <color name="gray_disabled">#b9d8d8d8</color>
+    <color name="meesho_gray_dark">#52616a</color>
+    <color name="meesho_gray">#a8bac5</color>
+    <color name="rate_prompt_button_text_color">#274f96</color>
+    <color name="dialog_title_text_color">#535559</color>
+    <color name="dialog_subtext_text_color">#959699</color>
+    <color name="meesho_gray_shade_2">#798e9b</color>
+    <color name="meesho_80">#b74599</color>
+    <color name="meesho_gray_light">#c9d6de</color>
+    <string name="signIn">Login</string>
+
+    <color name="drak_grey">#c3c3c3</color>
+    <color name="whats_color">#43b709</color>
+</resources>

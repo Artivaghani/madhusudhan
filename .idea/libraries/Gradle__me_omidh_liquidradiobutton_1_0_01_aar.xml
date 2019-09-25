@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: me.omidh:liquidradiobutton:1.0.01@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf895666958638f778fb40b66fe18e5c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf895666958638f778fb40b66fe18e5c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.omidh/liquidradiobutton/1.0.01/1c78330ce5daecdff8f1a59b210c17d1aebeff7e/liquidradiobutton-1.0.01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

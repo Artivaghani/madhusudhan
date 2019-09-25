@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/action_cart"-->
+        <!--android:icon="@drawable/ic_shopping_cart_black_24dp"-->
+        <!--android:title="My Cart"-->
+        <!--app:actionLayout="@layout/cart_action_view"-->
+        <!--app:showAsAction="always" />-->
+    <item
+        android:id="@+id/noti"
+        android:icon="@drawable/ic_local_phone_black_24dp"
+        android:title="Notification"
+        app:actionLayout="@layout/shap"
+        app:showAsAction="always" />
+
+</menu>

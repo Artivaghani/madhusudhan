@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Order Process Complete"
+            android:textColor="@color/grey_4d"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/icon_cancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:src="@drawable/newcancel"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/dimen_5"
+        android:text="Successfully Completed Place Order.."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/dimen_5"
+        android:text="Thank You For Shopping."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="12dp" />
+
+
+    <TextView
+        android:id="@+id/tvbtnOk"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_50"
+        android:layout_marginBottom="@dimen/dimen_20"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:background="@drawable/background_rectangle_rounded_corner_red"
+        android:gravity="center"
+        android:text="Continue Shopping"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="18.0sp" />
+
+</LinearLayout>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dimen_5"
+    android:layout_marginRight="@dimen/dimen_5"
+    android:layout_marginTop="@dimen/dimen_5"
+    android:layout_marginBottom="@dimen/dimen_5"
+    android:orientation="vertical"
+    android:background="@drawable/btchkelocastion">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F5D4EB">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="@drawable/selector_default_highlight_rect"
+            android:tag="binding_1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <android.support.percent.PercentFrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <!--<com.blundell.tut.LoaderImageView-->
+                    <!--android:id="@+id/ivImage"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="200dp"-->
+                    <!--android:scaleType="fitXY"-->
+                    <!--image="http://developer.android.com/images/dialog_buttons.png"-->
+                    <!--/>-->
+                    <ImageView
+                        android:id="@+id/ivImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/icon" />
+                        <TextView
+                            android:id="@+id/catalog_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:rotation="-45"
+                            android:layout_marginTop="@dimen/dimen_10"
+                            android:padding="@dimen/dimen_10"
+                            android:text=""
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimaryDark"
+                            />
+
+
+                </android.support.percent.PercentFrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="-40dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="-35dp"
+                    android:tag="binding_3"
+                    android:visibility="visible">
+
+
+                    <TextView
+                        android:id="@+id/tvdiscount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignRight="@+id/name"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bg_discount_percent_off"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:tag="binding_7"
+                        android:text="(20%OFF)"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18sp"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    android:tag="binding_5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/discount"
+                            android:ellipsize="end"
+                            android:fontFamily="fonts/DINEXTLTPro-Bold"
+                            android:text="Latest Indian Dresses Collections 2017"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/tvprice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="fonts/DINEXTLTPro-Medium"
+                            android:text="Staring Price : $ 125 "
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13dp" />
+
+
+                        <View
+                            android:layout_width="0.2dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            android:background="@color/grey_8f"></View>
+
+                        <TextView
+                            android:id="@+id/tvspecial_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="fonts/DINEXTLTPro-Medium"
+                            android:text="5 Desing"
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <!--<View-->
+                        <!--android:layout_width="0.2dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_marginLeft="6dp"-->
+                        <!--android:layout_marginRight="6dp"-->
+                        <!--android:background="@color/grey_8f"></View>-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_5"
+                        android:background="@color/colorBackground"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/tvStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen_3"
+                            android:layout_marginRight="@dimen/dimen_3"
+                            android:fontFamily="fonts/DINEXTLTPro-Bold"
+                            android:text="demo"
+                            android:textAllCaps="true"
+                            android:textColor="@color/grey_4a"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:weightSum="1"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:padding="5dp"
+                        android:id="@+id/productWish"
+                        android:layout_gravity="right"
+                        android:layout_height="40dp"
+                        android:visibility="gone"
+                        android:src="@drawable/ic_favorite_black_24dp"/>
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.05"
+                        android:visibility="visible"/>
+
+                    <Button
+                        android:id="@+id/btVproduct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.10"
+                        android:lines="1"
+                        android:background="@color/colorPrimary"
+                        android:text="View Products"
+                        android:textColor="@color/white" />
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.05"
+                        android:visibility="visible"/>
+                    <LinearLayout
+                        android:id="@+id/btVproshare"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.60"
+                        android:background="#34af23"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:visibility="visible">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="@dimen/dimen_5"
+                            android:padding="@dimen/dimen_3"
+                            android:src="@drawable/whatsappp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/dimen_5"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:text="SHARE"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.05"
+                        android:visibility="visible"/>
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:padding="5dp"
+                        android:layout_gravity="bottom|right"
+                        android:id="@+id/productSimilar"
+                        android:layout_height="40dp"
+                        android:visibility="gone"
+                        android:src="@drawable/similer"/>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--<com.lid.lib.LabelTextView-->
+            <!--style="@style/LabelView"-->
+            <!--android:label_distance="55dp"-->
+            <!--android:label_orientation="1"-->
+            <!--android:label_text="@string/prebooking"-->
+            <!--android:tag="binding_14" />-->
+
+        </FrameLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

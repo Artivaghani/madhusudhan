@@ -1,0 +1,1217 @@
+{
+  "project_info": {
+    "project_number": "745855282390",
+    "firebase_url": "https://aspire1-157504.firebaseio.com",
+    "project_id": "aspire1-157504",
+    "storage_bucket": "aspire1-157504.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:71926f80c02367d4",
+        "android_client_info": {
+          "package_name": "com.SkyzoneGroup.MadhusudhanCreation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:c909b9f859c2ba9a",
+        "android_client_info": {
+          "package_name": "com.ahir.samaj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:dc58fa8aea4d8d51",
+        "android_client_info": {
+          "package_name": "com.first.choice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:6056e7d405d40bfa",
+        "android_client_info": {
+          "package_name": "com.sky.GyanGangaGlobleSchool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:0d2a196aba015040",
+        "android_client_info": {
+          "package_name": "com.sky.ahirsamaj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:2393a9cfce027096",
+        "android_client_info": {
+          "package_name": "com.sky.kaushalvidyabhavan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:28d9dd1b33a5a325",
+        "android_client_info": {
+          "package_name": "com.sky.marusurat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:da5f45ea04f784bc",
+        "android_client_info": {
+          "package_name": "com.sky.shardayatan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:0dcd5e6c19036d38",
+        "android_client_info": {
+          "package_name": "com.sky.startuptalky"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:962555e9489e4307",
+        "android_client_info": {
+          "package_name": "com.skygroup.pearlenglishschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:7f5b4a5f6fe65a5d",
+        "android_client_info": {
+          "package_name": "com.skygroup18.bestrealenglishschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:dcdea14c10bcb535",
+        "android_client_info": {
+          "package_name": "com.skygroup18.neelmadhav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:b9613f1249c59bdd",
+        "android_client_info": {
+          "package_name": "com.skygroup18.neelmadhavschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:2d80536f855cf160",
+        "android_client_info": {
+          "package_name": "com.skyzone.Internationalschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:92a826d43217cdc8",
+        "android_client_info": {
+          "package_name": "com.skyzone.Mahavirschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:c89e114394740fa9",
+        "android_client_info": {
+          "package_name": "com.skyzone.Maulanaazadschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:e9d41b08d7d837fb",
+        "android_client_info": {
+          "package_name": "com.skyzone.ahirsamajsevasamiti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:478e2863394a2dd2",
+        "android_client_info": {
+          "package_name": "com.skyzone.aspire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745855282390-2u23dbofp66e2sih2gomhupdbjnqsj57.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skyzone.aspire",
+            "certificate_hash": "55331dd6e64b1e86f5c6cd60d19f865a2686032b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:6b6c31f8c7ab40eb",
+        "android_client_info": {
+          "package_name": "com.skyzone.happymart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:2eaa3df562f64764",
+        "android_client_info": {
+          "package_name": "com.skyzone.sandipanischool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:34b44531f8ddc5c8",
+        "android_client_info": {
+          "package_name": "com.skyzone.shreenagarbandharagnatipnch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:6a07195479d01255",
+        "android_client_info": {
+          "package_name": "com.skyzone.sky18.rosebud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:583f6b4377591685",
+        "android_client_info": {
+          "package_name": "com.skyzone.sky18.testing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:021ce6195edbdd80",
+        "android_client_info": {
+          "package_name": "com.skyzone.studentlogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:ab10df704d8f8638",
+        "android_client_info": {
+          "package_name": "com.skyzone18.DonBoscoPublicSchool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:501d8c50ba625b5c",
+        "android_client_info": {
+          "package_name": "com.skyzone18.ManMandirVidyalay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:247e5e16102b0a2a",
+        "android_client_info": {
+          "package_name": "com.skyzone18.ParasharVidyaSankul"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:ef3069a932acedae",
+        "android_client_info": {
+          "package_name": "com.skyzone18.Raghukulvidyalay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:488396e58b5f5f53",
+        "android_client_info": {
+          "package_name": "com.skyzone18.balganesha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:0189a129413bae78",
+        "android_client_info": {
+          "package_name": "com.skyzone18.jivanjyotvidyalay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:ccd176091eed10ba",
+        "android_client_info": {
+          "package_name": "com.skyzone18.nalandavidhyalay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:40517ac179f4684d",
+        "android_client_info": {
+          "package_name": "com.skyzone18.navyug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:4f93120515a70cfe",
+        "android_client_info": {
+          "package_name": "com.skyzone18.pramukhvidhyalay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:dc1064f1b9c71c0c",
+        "android_client_info": {
+          "package_name": "com.skyzone18.suvschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:8d0a47cffb348807",
+        "android_client_info": {
+          "package_name": "com.skyzone18.vatsalyainternational"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:901960ff85b6a981",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.AnandaGlobalSchool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:c659d108ea05f055",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.AppleInternationalSchool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:27edda01541e16d1",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.Archanavidhyabhavan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:d7be409c33bf76da",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.BhanuJyotSchool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:8838d613f33864b0",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.EnglishAcademy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:e339f09a8f76b8a0",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.HariomSchool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:a1c2752e4158479d",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.HolyChildSchool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:afb55e972cff2603",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.JVinternationalSchool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:d59e6cd69f65e014",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.JVinternationalSchool2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:7d3326a5d918d4a6",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.PratapHighSchool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:d58ee5e0f91f27bd",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.Rahipublicschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:b7dbec14ad89310c",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.SKGinternationalschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:ae3ce28aab65b068",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.SiddhiVinayakClasses"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:b0e18cdef8eb9684",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.brighthorizoneschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:eef0e01d6024281f",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.gyansagarschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:960a8755a9a76bb0",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.harikrushninternationalschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:c6b00e70f3164789",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.krishnarajschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:ba3993c697b871e1",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.krishnaschoolsankul"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:643975ae565be02e",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.krishnaschoolsankuljolwa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:558b776f37c405c6",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.maulanaazadschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:18254eb26eb39692",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.mountmarryschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:ff8edef4f72a72db",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.pragatiknowledgeinstitute"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:044f988d5bd4250e",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.rimspublicschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:1d026ebc709f7758",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.shreesainathschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:ef7525b3c8ea75e2",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.shriiwisdomtechnoenglishschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:5477fe0cc5e217d0",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.unitygroupofschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:ac179af8ddf0c056",
+        "android_client_info": {
+          "package_name": "com.skyzonegroup.vibrantinternationalschool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745855282390:android:d1c036ebadbb0cf8",
+        "android_client_info": {
+          "package_name": "skyzone.skyzone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDzfgoV5KPtLlJVFPRGkOXBGM-qdTsyNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

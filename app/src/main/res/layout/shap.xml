@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton
+    android:id="@+id/callme"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_50"
+    android:layout_height="@dimen/dimen_50"
+    android:background="@android:color/transparent"
+    android:src="@drawable/ic_local_phone_black_24dp"
+    android:scaleType="fitXY"
+    android:padding="7dp"
+    android:tint="#ADF3B3">
+
+</ImageButton>
